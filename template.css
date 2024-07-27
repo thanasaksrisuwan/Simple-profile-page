@@ -98,10 +98,13 @@ body {
     background-repeat: no-repeat;
 }
 .mail h3::before {
-    background-image: url('mail-icon.png');
+    background-image: url('https://img.icons8.com/ios/50/apple-settings.png');
 }
 .drive h3::before {
-    background-image: url('drive-icon.png');
+    background-image: url('https://img.icons8.com/ios/50/xcode.png');
+}
+.note h3::before {
+    background-image: url('https://img.icons8.com/ios/50/customer-insights-manager.png');
 }
 .list-item {
     padding: 10px 0;
