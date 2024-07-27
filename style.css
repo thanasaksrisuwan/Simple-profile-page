@@ -77,6 +77,11 @@ section {
   margin-bottom: 20px;
   border-radius: 8px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out; /* Transition for zoom effect */
+}
+
+.gallery img:hover {
+  transform: scale(1.1); /* Zoom in on hover */
 }
 
 footer {
