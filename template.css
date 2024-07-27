@@ -13,8 +13,8 @@ body {
 
 .container {
     width: 100%;
-    max-width: 600px; /* Adjust this width as needed */
-    padding: 0 20px; /* Space on the left and right */
+    max-width: 600px;
+    padding: 0 20px;
 }
 .dashboard {
     display: grid;
@@ -67,7 +67,7 @@ body {
 }
 .photo-item {
     width: 100%;
-    padding-top: 100%; /* 1:1 Aspect Ratio */
+    padding-top: 100%;
     background-size: cover;
     background-position: center;
     border-radius: 5px;

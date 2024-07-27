@@ -7,9 +7,9 @@ html, body {
   padding: 0;
   font-family: 'Noto Sans Thai', sans-serif;
   font-weight: 400;
-  background: linear-gradient(135deg, #f0f3f5, #d9e1e8); /* Gradient background similar to iCloud */
-  color: #1d1d1f; /* iCloud's dark gray color */
-  overflow-y: auto; /* Ensure vertical scroll */
+  background: linear-gradient(135deg, #f0f3f5, #d9e1e8);
+  color: #1d1d1f;
+  overflow-y: auto;
 }
 
 body {
@@ -20,8 +20,8 @@ body {
 }
 
 header {
-  background: #ffffff; /* White background */
-  color: #1d1d1f; /* Dark gray text */
+  background: #ffffff;
+  color: #1d1d1f;
   padding: 20px;
   text-align: center;
   border-radius: 8px;
@@ -34,7 +34,7 @@ header {
 nav {
   display: flex;
   justify-content: center;
-  background: #ffffff; /* White background */
+  background: #ffffff;
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -44,19 +44,19 @@ nav {
 }
 
 nav a {
-  color: #007aff; /* iOS Blue for links */
+  color: #007aff;
   padding: 0.5em 1em;
   text-decoration: none;
   margin: 0 10px;
 }
 
 nav a:hover {
-  background-color: rgba(0, 122, 255, 0.1); /* Light blue background on hover */
+  background-color: rgba(0, 122, 255, 0.1);
   border-radius: 8px;
 }
 
 section {
-  background: #ffffff; /* White background */
+  background: #ffffff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -77,16 +77,16 @@ section {
   margin-bottom: 20px;
   border-radius: 8px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out; /* Transition for zoom effect */
+  transition: transform 0.3s ease-in-out;
 }
 
 .gallery img:hover {
-  transform: scale(1.1); /* Zoom in on hover */
+  transform: scale(1.1);
 }
 
 footer {
-  background: #ffffff; /* White background */
-  color: #1d1d1f; /* Dark gray text */
+  background: #ffffff;
+  color: #1d1d1f;
   text-align: center;
   padding: 10px;
   border-radius: 8px;
